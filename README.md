@@ -1,8 +1,6 @@
 # Hash Code 2018 Pizza problem
 :pizza: test round solution by GDG Bologna
 
-**Work in progress, probably completed before night**
-
 ## Problem explanation
 
 *the following text is in Italian because is targeted to an italian community, if you're an english reader and needs a translation please create an issue*
