@@ -1,4 +1,4 @@
-import sys
+import sys, os
 import numpy as np
 import collections, math, itertools
 
@@ -85,7 +85,9 @@ def skipNan(index, x):
 
 
 def printSolution(solution):
-    with open(filename + ".out", 'w+') as outputFile:
+    outfilepath = "out/" + filename + ".out"
+    os.makedirs(os.path.dirname(outfilepath), exist_ok=True)
+    with open(outfilepath, 'w+') as outputFile:
         outputFile.write('{}\n'.format(len(solution['slices'])))
         for slice in solution['slices']:
             start = slice['start']
@@ -93,7 +95,7 @@ def printSolution(solution):
             outputFile.write('{} {} {} {}\n'.format(start.x, start.y, end.x, end.y))
 
 def inizializePizza():
-    with open(filename + ".in", 'r') as inputFile:
+    with open("in/" + filename + ".in", 'r') as inputFile:
         # read file first line
         line = inputFile.readline()
         # parse parameter
