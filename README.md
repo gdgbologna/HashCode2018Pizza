@@ -29,11 +29,25 @@ Il file di output deve avere la seguente sintassi:
 ```
 Che in pratica dice:
 - sono riuscito a creare 3 pezzi
-il primo pezzo è un rettangolo dalla cella (0,0) alla cella (2,1) oppure in altre parole è un rettangolo che comprende le righe dalla 0 alla 2 (3 righe) e le colonne dalla 0 alla 1 (2 colonne)
-le altre righe sono gli altri pezzi e 
+  il primo pezzo è un rettangolo dalla cella (0,0) alla cella (2,1) oppure in altre parole è un rettangolo che comprende le righe dalla 0 alla 2 (3 righe) e le colonne dalla 0 alla 1 (2 colonne)
+  le altre righe sono gli altri pezzi 
 
 Visualizzata la soluzione è la seguente:
 
 ![soluzione](https://bytefreaks.net/wp-content/uploads/2017/01/google-hash-code-2017-Practice-Problem-Example-Submission.png)
 
 Il problema può essere visto anche come la minimizzazione del numero di celle che non vanno a finire in pezzi tagliati e scritti nel file di output.
+
+
+
+## Istruzioni
+
+Per provare la soluzione è necessario utilizzare python 3+ ed eseguire il seguente comando
+
+```
+python3 pizza.py filename
+```
+
+che eseguirà lo script `pizza.py` prendendo come input `in/filename.in` e generando l'output in `out/filename.out`
+
+
