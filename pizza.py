@@ -1,10 +1,10 @@
+import sys
 import numpy as np
 import collections, math, itertools
 
-filename = 'medium'
+filename = 'small' if len(sys.argv) == 1 else sys.argv[1]
 
 Point = collections.namedtuple('Point', ['x', 'y'])
-
 
 def getArea(start: Point, end: Point):
     height = end.x - start.x + 1
