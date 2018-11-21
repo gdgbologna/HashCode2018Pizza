@@ -7,7 +7,7 @@
 
 Abbiamo da dividere una pizza rettangolare in diversi pezzi.
 La pizza  è divisa in celle, ogni cella può contenere un pomodorino un fungo.
-Bisogno massimizzare il numero di pezzi tenendo conto di vincoli sul numero di pomodorini e funghi minimimo per ogni pezzo ma anche su una dimensione massima del pezzo.
+Bisogno massimizzare il numero di pezzi tenendo conto di vincoli sul numero di pomodorini e funghi minimi per ogni pezzo ma anche su una dimensione massima del pezzo.
 
 Il file di input del problema ha la seguente sintassi:
 ```
